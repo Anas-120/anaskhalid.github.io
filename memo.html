@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .section-bg {
+            background: url("images/Memo/memobg.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 35vw;
+            /* text-align: center; */
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            padding: 0.5%;
+            background: #fff;
+            border-radius: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bgColor px-lg-3 py-lg-2 shadow-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5 me-5 h-font fw-bold fs-3" href="index.html">Anas's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link me-2" aria-current="page" href="index.html#About">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="index.html#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="index.html#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="index.html#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="index.html#Affiliation">Affiliation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="section-bg d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-white" style="font-size: 3vw;">Memo</h1>
+        <h3 class="text-white" style="font-size: 2vw;">A Reminding Android App</h3>
+    </div>
+    <div class="container-fluid section-bgColor pb-5 text-white"
+        style="padding-left: 15%; padding-right: 15%; text-align: justify; font-size: 1.8vw; padding-top: 10%;">
+        <p> An android application is constructed to solve the issue of remembering everything. It has features where it's users can write important stuffs in the notes and in order
+            to get reminded about any sort of work then they could use alarming feature.</p>
+
+        <p>Flutter framework and Dart programming language is used to complete this project. App consists of three tabs or pages- Home Page, Notes, Reminding Alarm to provide corresponding features to it's users. 
+            Firebase is used as a backend service to store the data provided in the notes section by the users. 
+            Gradient Effect is used to give better Graphic Interface to the App and splash service is also used.</p>
+
+        <p>In future various other features can be integrated like security system can be attached with the Notes so that certain private notes could be secured.</p>
+    </div>
+    
+    <div class="container-fluid section-revbgColor py-5" style="padding-left: 5%; padding-right: 5%;">
+        <h1 class="text-light fw-bold text-center h-font">Gallery</h1><br><br>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/Memo/memo.png"   style="border-radius: 2%;"></div>
+                <div class="swiper-slide"><img src="images/Memo/memo1.jpg"   style="border-radius: 2%;"></div>
+                <div class="swiper-slide"><img src="images/Memo/memo2.jpg" style="border-radius: 2%;"></div>
+                <div class="swiper-slide"><img src="images/Memo/memo3.jpg" style="border-radius: 2%;"></div>
+                <div class="swiper-slide"><img src="images/Memo/memo4.jpg" style="border-radius: 2%;"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="container-fluid section-bgColor pt-2 pb-5">
+        <hr style="margin: auto; width: 70%; border-width: 3px; color: #fff;">
+        <div class="row justify-content-around  py-5">
+            <div class="col-md-4 col-5 text-white">
+                <h2 class="h-font" style="font-size: 3vw;">Technology Stack</h2>
+                <ul style="margin-left: 8%; font-size: 2vw;">
+                    <li>Flutter</li>
+                    <li>Firebase</li>
+                    <li>Dart</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-5 text-center text-white">
+                <h2 class="h-font" style="font-size: 2.5vw;">Duration</h2>
+                <h4 style="font-size: 1.8vw;">May 2023 - June 2023</h4>
+                <br>
+                <h2 class="h-font" style="font-size: 2.5vw;">Links</h2>
+                <a href="https://github.com/Anas-120/memo?tab=readme-ov-file" style="font-size: 1.8vw; color: #fff;">Memo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid nav-bgColor mt-5" id="Contact">
+        <div class="row">
+            <div class="col-lg-4 p-4">
+                <h3 class="h-font fw-bold fs-3 mb-2">AK</h3>
+                <p>
+                  Where Technology meets Imagination: Engineering Excellence Redefined
+                </p>
+            </div>
+            <div class="col-lg-4 p-4">
+                <h5 class="mb-3">Links</h5>
+                <a href="index.html" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Home</a><br>
+                <a href="index.html#Education" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Education</a><br>
+                <a href="index.html#Projects" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Projects</a><br>
+                <a href="index.html#Skills" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Skills</a><br>
+                <a href="index.html#Affiliation" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Affiliation</a>
+            </div>
+            <div class="col-lg-4 p-4">
+                <h5 class="mb-3">Reach Out</h5>
+                <div class="row justify-content-around">
+                  <div class="col-4">
+                    <a href="https://www.linkedin.com/in/anas-khalid-682889246/" class="d-inline-block text-dark text-decoration-none mb-2">
+                      <i class="bi bi-linkedin"></i> LinkedIn
+                    </a><br>
+                    <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                        <i class="bi bi-twitter-x"></i> Twitter
+                    </a><br>
+                    <a href="https://www.instagram.com/anaskhalid908/" class="d-inline-block text-dark text-decoration-none mb-2">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a><br>
+                    <a href="https://github.com/Anas-120" class="d-inline-block text-dark text-decoration-none mb-2">
+                      <i class="bi bi-github"></i> GitHub
+                  </a><br>
+                  </div>
+                  <div class="col-7">
+                    <a href="tel:+91-7379083468" class="d-inline-block text-dark text-decoration-none no-font mb-2">
+                      <i class="bi bi-telephone"></i> +91-7379083468
+                    </a><br>
+                    <a href="mailto:anasknitt@gmail.com" class="d-inline-block text-dark text-decoration-none no-font mb-2">
+                      <i class="bi bi-envelope-at"></i> anasknitt@gmail.com
+                    </a><br>
+                  </div>
+                </div>
+                
+                
+            </div>
+        </div>
+      </div>
+    
+    <h6 class="text-center bg-dark text-white p-3 m-0">Designed and Developed by AK</h6>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    </script>
+</body>
+
+</html>

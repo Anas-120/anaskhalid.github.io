@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas Khalid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .profile-bg {
+      shape-outside: ellipse(20% 50%);
+      clip-path: ellipse(43% 50%);
+      background-color: slategray;
+    }
+
+    .bg-color {
+      background-image: radial-gradient(#e8eee7,#a4b9b3,#cdf4ed);
+      /* background-color: #e8eee7; */
+    }
+
+    
+
+    .first_section {
+      position: relative;
+    }
+
+    .swiper {
+      width: 100%;
+      padding: 50px 0;
+    }
+
+    .swiper-slide {
+      background-image: linear-gradient(to bottom right,#64c6b9, #284f42, #19c694);
+      /* background-color: #5c8a75; */
+      background-position: center;
+      background-size: cover;
+      height: 495px;
+      position: relative;
+      width: 320px;
+      border-radius: 14px;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      /* height: 100%; */
+      /* object-fit: cover;
+      border-radius: inherit;
+      user-select: none; */
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light nav-bgColor px-lg-3 py-lg-2 shadow-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 me-5 h-font fw-bold fs-3" href="#">Anas's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link me-2" aria-current="page" href="#About">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#Projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#Affiliation">Affiliation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-2" href="#Contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid section-bgColor first_section ps-5 pe-5" style="margin-bottom: -25px;">
+    <div class="row">
+      <div class="col-6 col-md-8 text-white align-baseline">
+        <p class="text-lg-left" style="font-size: 4.5vw;"><br>Hi!<br>I am Anas Khalid</p>
+        <hr style="width: 50%;">
+        <p style="font-size: 2vw;">Application Developer / Undergraduate Student</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="container rounded profile-bg mt-5 ">
+          <img src="images/pp-bg.png" class="rounded img-fluid" alt="myImage"
+            style="width:100%; margin-top: 10px; margin-left: 7%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid section-head bg-color" id="About" style="height: 13vw;">
+    <h2 class="fw-bold h-font small-head">About Me</h2>
+    <p class="big-head h-font text-center">About Me</p>
+  </div>
+  <div class="container-fluid section-bgColor pt-4 pe-3 pb-3">
+    <div class="row justify-content-around">
+      <div class="col-5 col-md-3">
+        <div class="container-fluid rounded-circle bg-dark bg-gradient mt-2">
+          <img src="images/profileUp.png" class="rounded-circle img-fluid" alt="myImage"
+            style="width:100%; margin-top: 2%;">
+        </div>
+      </div>
+      <div class="col-6 col-md-6 text-white mt-4 text-center d-flex justify-content-center">
+        <p class="text-end " style="font-size: 2vw;">
+          I am a pre-final year B.Tech student majoring in Instrumentation and Control Engineering and minoring in Computer
+          Science and Engineering
+          at NIT Trichy. My prime interest lies in Application Development and Robotics, and I am an active member of
+          the
+          Robotics and Machine Intelligence(RMI) club at our university.
+          <br><br>
+          <button type="button" onclick="window.location.href='https://drive.google.com/file/d/11Sw1zHV_8aP4PwKCqzPjUwQhyr9nQSvn/view?usp=sharing';" class="btn btn-outline-info me-md-5 me-3" style="font-size: 2.3vw;">Resume >></button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid w-100 text-center bg-color" id="Education" style="height: 13vw; position: relative;">
+    <h2 class="fw-bold h-font small-head">Education</h2>
+    <p class="big-head h-font text-center" style="z-index: 0;">Education</p>
+  </div>
+  <div class="container-fluid section-bgColor pt-md-4 pt-2 pe-5 pb-2" style="max-height: 100%;">
+    <div class="row justify-content-around">
+      <div class="col-6 col-md-6 text-white mt-4 text-center d-flex justify-content-center">
+        <p class="text-start align-middle" style="font-size: 1.8vw;">
+          B.Tech<br>
+          Major in Instrumentation and Control Engineering<br>
+          Minor in Computer Science and Engineering<br>
+          National Institute of Technology, Tiruchirappalli, India<br>
+          Fall 2021 to Spring 2025
+        </p>
+      </div>
+      <div class="col-5 col-md-3">
+        <div class="container-fluid rounded-circle bg-light bg-gradient mt-2">
+          <img src="images/student-graduation.png" class="rounded-circle img-fluid" alt="myImage"
+            style="width:100%; margin-top: 2%;">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid w-100 text-center bg-color" id="Projects" style="height: 13vw; position: relative;">
+    <h2 class="fw-bold h-font small-head">Projects</h2>
+    <p class="big-head h-font text-center" style="z-index: 0;">Projects</p>
+  </div>
+  <div class="container-fluid section-bgColor">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ps-4 pe-4 pt-5 pb-3">
+          <img src="images/rov.png" style="border-radius: 2%; max-width: 100%;">
+          <div class="mt-3">
+            <h5 class="text-center text-white h-font">ROV</h5>
+              <span class="badge rounded-pill bg-light text-dark text-wrap mt-3 d-flex justify-content-center">
+                Remotely Operated Underwater Vehicle
+              </span>
+          </div>
+          <a href="rov.html" class="btn btn-sm btn-outline-dark shadow-none mt-5 float-end">More Details</a>
+        </div>
+        <div class="swiper-slide ps-4 pe-4 pt-5 pb-3">
+          <img src="images/medvisor.png" style="border-radius: 2%; max-width: 100%;">
+          <div class="mt-3">
+            <h5 class="text-center text-white h-font">MedVisor</h5>
+              <span class="badge rounded-pill bg-light text-dark text-wrap mt-3 d-flex justify-content-center">
+                Medical Visualisation through AR
+              </span>
+          </div>
+          <a href="medvisor.html" class="btn btn-sm btn-outline-dark shadow-none mt-5 float-end">More Details</a>
+        </div>
+        <div class="swiper-slide ps-4 pe-4 pt-5 pb-3">
+          <img src="images/hotelManagement.jpg" style="border-radius: 2%; max-width: 100%;">
+          <div class="mt-3">
+            <h5 class="text-center text-white h-font">Hotel Management System</h5>
+              <span class="badge rounded-pill bg-light text-dark text-wrap mt-3 d-flex justify-content-center">
+                A Web application
+              </span>
+          </div>
+          <a href="hms.html" class="btn btn-sm btn-outline-dark shadow-none mt-4 float-end">More Details</a>
+        </div>
+        <div class="swiper-slide ps-4 pe-4 pt-5 pb-3">
+          <img src="images/memo.png" style="border-radius: 2%; max-width: 100%;">
+          <div class="mt-3">
+            <h5 class="text-center text-white h-font">Memo</h5>
+              <span class="badge rounded-pill bg-light text-dark text-wrap mt-3 d-flex justify-content-center">
+                An android application 
+              </span>
+          </div>
+          <a href="memo.html" class="btn btn-sm btn-outline-dark shadow-none mt-5 float-end">More Details</a>
+        </div>
+        <div class="swiper-slide ps-4 pe-4 pt-5 pb-3">
+          <img src="images/sentinelDrone.png" style="border-radius: 2%; max-width: 100%;">
+          <div class="mt-3">
+            <h5 class="text-center text-white h-font">Sentinel Drone</h5>
+              <span class="badge rounded-pill bg-light text-dark text-wrap mt-3 d-flex justify-content-center">
+                A Nano surveillance Drone
+              </span>
+          </div>
+          <a href="drone.html" class="btn btn-sm btn-outline-dark shadow-none mt-5 float-end">More Details</a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+  </div>
+
+  <div class="container-fluid w-100 text-center bg-color" id="Skills" style="height: 13vw; position: relative;">
+    <h2 class="fw-bold h-font small-head">My Skills</h2>
+    <p class="big-head h-font text-center" style="z-index: 0;">My Skills</p>
+  </div>
+  <div class="container-fluid section-bgColor pt-5 pb-5 ps-5 pe-5">
+    <h2 class="h-font text-white" style="font-size: 3vw;">Software:</h2>
+    <div class="row justify-content-around">
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">HTML</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100" style="width:85%">
+              <span class="no-font">85%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">CSS</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width:75%">
+              <span class="no-font">75%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">BootStrap</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100" style="width:65%">
+              <span class="no-font">65%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">JavaScript</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="55"
+              aria-valuemin="0" aria-valuemax="100" style="width:55%">
+              <span class="no-font">55%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">PHP</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="55"
+              aria-valuemin="0" aria-valuemax="100" style="width:55%">
+              <span class="no-font">55%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">SQL</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100" style="width:90%">
+              <span class="no-font">90%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">Flutter</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width:75%">
+              <span class="no-font">75%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="h-font text-white" style="font-size: 3vw;">Hardware:</h2>
+    <div class="row justify-content-around">
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">Robotics</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100" style="width:65%">
+              <span class="no-font">65%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">Embedded Systems</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              <span class="no-font">80%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4 animate-box">
+        <div class="progress-wrap ftco-animate">
+          <h3 class="text-white" style="font-size: 2vw;">Automation and Controls</h3>
+          <div class="progress">
+             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width:75%">
+              <span class="no-font">75%</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid w-100 text-center bg-color" id="Affiliation" style="height: 13vw; position: relative;">
+    <h2 class="fw-bold h-font small-head">Affiliation</h2>
+    <p class="big-head h-font text-center" style="z-index: 0;">Affiliation</p>
+  </div>
+  <div class="container-fluid section-bgColor pt-5 pb-2 ps-4 pe-4">
+    <h2 class="h-font text-white ms-5" style="font-size: 3vw;">
+      Robotics and Machine Intelligence (RMI)
+    </h2>
+    <hr class="text-white ms-5" style="width: 70%;">
+    <div class="row justify-content-around">
+      <div class="col-md-3 col-5">
+        <div class="container-fluid rounded-circle bg-dark bg-gradient mt-2">
+          <img src="images/RMI-logo-removebg.png"  class="rounded img-fluid mb-2">
+        </div>
+        
+      </div>
+      <div class="col-md-7 col-5">
+        <p class="text-white mt-3" style="font-size: 1.8vw;">
+          RMI is NIT Trichy's official Robotics and Technical Research Club, 
+          with a prime focus on Robotics-oriented research projects. 
+          We cover diverse fields, including Image Processing, Inverse Kinematics, and Artificial Intelligence. 
+          As an active member and researcher, I've worked on multiple robotics projects and competed in various competitions.
+          <br>
+          <br>
+          <button type="button" onclick="window.location.href='https://rmi.nitt.edu/'" class="btn btn-outline-info me-md-5 me-3" style="font-size: 1.3vw;">Learn More >></button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid nav-bgColor mt-5" id="Contact">
+    <div class="row">
+        <div class="col-lg-4 p-4">
+            <h3 class="h-font fw-bold fs-3 mb-2">AK</h3>
+            <p>
+              Where Technology meets Imagination: Engineering Excellence Redefined
+            </p>
+        </div>
+        <div class="col-lg-4 p-4">
+            <h5 class="mb-3">Links</h5>
+            <a href="#top" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Home</a><br>
+            <a href="#Education" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Education</a><br>
+            <a href="#Projects" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Projects</a><br>
+            <a href="#Skills" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Skills</a><br>
+            <a href="#Affiliation" class="d-inline-block ms-2 mb-2 text-dark text-decoration-none">Affiliation</a>
+        </div>
+        <div class="col-lg-4 p-4">
+            <h5 class="mb-3">Reach Out</h5>
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <a href="https://www.linkedin.com/in/anas-khalid-682889246/" class="d-inline-block text-dark text-decoration-none mb-2">
+                  <i class="bi bi-linkedin"></i> LinkedIn
+                </a><br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                    <i class="bi bi-twitter-x"></i> Twitter
+                </a><br>
+                <a href="https://www.instagram.com/anaskhalid908/" class="d-inline-block text-dark text-decoration-none mb-2">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a><br>
+                <a href="https://github.com/Anas-120" class="d-inline-block text-dark text-decoration-none mb-2">
+                  <i class="bi bi-github"></i> GitHub
+              </a><br>
+              </div>
+              <div class="col-7">
+                <a href="tel:+91-7379083468" class="d-inline-block text-dark text-decoration-none no-font mb-2">
+                  <i class="bi bi-telephone"></i> +91-7379083468
+                </a><br>
+                <a href="mailto:anasknitt@gmail.com" class="d-inline-block text-dark text-decoration-none no-font mb-2">
+                  <i class="bi bi-envelope-at"></i> anasknitt@gmail.com
+                </a><br>
+              </div>
+            </div>
+            
+            
+        </div>
+    </div>
+  </div>
+
+<h6 class="text-center bg-dark text-white p-3 m-0">Designed and Developed by AK</h6>
+
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 2,
+      speed: 600,
+      preventClicks: true,
+      slidesPerView: "auto",
+      // loop: true,
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 10,
+        modifier: 1,
+        slideShadows: true,
+      },
+      on: {
+        click(event) {
+          swiper.slideTo(this.clickedIndex);
+        },
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</body>
+
+</html>

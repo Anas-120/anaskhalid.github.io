@@ -20,10 +20,9 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
-    .profile-bg {
-      shape-outside: ellipse(20% 50%);
-      clip-path: ellipse(43% 50%);
-      background-color: slategray;
+
+    .text-name{
+      font-size: 5vw;
     }
 
     .bg-color {
@@ -37,6 +36,12 @@
 
     .first_section {
       position: relative;
+    }
+
+    .myimg{
+      width:100%; 
+      margin-top: 10px; 
+      margin-left: 10%;
     }
 
     .swiper {
@@ -83,6 +88,29 @@
 
       .slide-largea {
         margin-top: 1.5rem;
+      }
+    }
+
+    .occp-text{
+      font-size: medium;
+    }
+
+    @media (max-width: 767px){
+      .text-box{
+        order:5;
+        margin-bottom: 40px;
+      }
+      .occp-text{
+        font-size: small;
+      }
+      .text-name{
+        font-size: 8vw;
+      }
+      .profile-bg{
+        margin-bottom: -250px;
+      } 
+      .myimg{
+        margin-left: 30%;
       }
     }
 
@@ -140,15 +168,15 @@
 
   <div class="container-fluid section-bgColor first_section ps-5 pe-5" style="margin-bottom: -25px;">
     <div class="row">
-      <div class="col-5 col-md-8 text-white align-self-center align-self-md-start">
-        <p class="text-lg-left" style="font-size: 3.5vw;"><br>Hi!<br>I am Anas Khalid</p>
+      <div class="col-12 col-md-8 text-box text-white align-self-center align-self-md-start">
+        <p class="text-name"><br>Hi!<br>I am Anas Khalid</p>
         <hr style="width: 50%;">
-        <p style="font-size: 1.5vw;">Application Developer / Undergraduate Student</p>
+        <p class="occp-text">Software Developer / Undergraduate Student</p>
       </div>
-      <div class="col-7 col-md-4">
+      <div class="col-12 col-md-4">
         <div class="container rounded profile-bg mt-5 ">
-          <img src="images/pp-bg.png" class="rounded img-fluid" alt="myImage"
-            style="width:100%; margin-top: 10px; margin-left: 7%;">
+          <img src="images/pp-bg.png" class="rounded img-fluid myimg" alt="myImage"
+            style="">
         </div>
       </div>
     </div>
@@ -193,9 +221,9 @@
       <p class="big-head h-font text-center" style="z-index: 0;">Education</p>
     </div>
     <hr class="border-danger border-4 opacity-50" style="margin-left: 35%; width: 25%;">
-    <div class="container-fluid pt-md-4 pt-2 pe-5 pb-2" style="max-height: 100%;">
+    <div class="container-fluid pt-md-4 pt-2 pb-5" style="max-height: 100%;">
       <div class="row justify-content-around">
-        <div class="col-6 col-md-6 text-white mt-4 text-center d-flex justify-content-center" data-aos="zoom-in-right"
+        <div class="col-8 col-md-6 text-white mt-4 text-center d-flex justify-content-center" data-aos="zoom-in-right"
           data-aos-duration="1000">
           <p class="text-start align-middle" style="font-size: 1.8vw;">
             B.Tech<br>
@@ -205,7 +233,7 @@
             Fall 2021 to Spring 2025
           </p>
         </div>
-        <div class="col-5 col-md-3">
+        <div class="col-4 col-md-3">
           <div class="container-fluid rounded-circle bg-light bg-gradient mt-2">
             <img src="images/student-graduation.png" class="rounded-circle img-fluid" alt="myImage"
               style="width:100%; margin-top: 2%;">
@@ -222,21 +250,21 @@
       <p class="big-head h-font text-center" style="z-index: 0;">Experience</p>
     </div>
     <hr class="border-danger border-4 opacity-50" style="margin-left: 35%; width: 25%;">
-    <div class="container-fluid pt-md-4 pb-4 px-4" style="max-height: 100%;">
-
+    <div class="container-fluid py-4 px-4" style="max-height: 100%;">
       <div class="row justify-content-around">
-        <div class="col-md-3 align-self-center">
+        <div class="col-md-4 col-8 align-self-center py-3">
           <img class="img-fluid rounded" src="images/internCompany.png" alt="Company image">
         </div>
-        <div class="col-md-6">
-          <h5 class="fw-bold text-primary-emphasis" style="font-size: 4rem;">SWE Intern</h5>
-          <p class="text-white">During my internship at <a href="https://hatrio.com/"
-              class="text-decoration-none text-white fw-bold">Hatrio Canada Inc.</a> as a Software Developer,
-            I developed and maintained key features, collaborated on user interface design, and conducted strategic
-            research, all while
-            utilizing various technologies. My efforts resulted in notable improvements and hence development of Hatrio
-            AI, a SaaS Web Application.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+        <div class="col-md-6 col-10 py-3">
+          <h5 class="fw-bold text-primary-emphasis fs-1">SWE Intern</h5>
+          <p class="text-white fs-5" style="text-align: justify;">During my internship at <a href="https://hatrio.com/" class="text-decoration-none text-dark fw-bold">Hatrio Canada Inc.</a> as a Software Developer, 
+            I worked on the Hatrio AI project, where I designed and developed a SaaS application using various technologies, including framework
+            like Laravel. I played a key role in building scalable and efficient backend services, implementing
+            RESTful APIs, and integrating third-party services to enhance the application's functionality. My
+            responsibilities also included participating in code reviews, debugging and optimization to ensure
+            robust and maintainable code.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
         </div>
       </div>
     </div>
@@ -473,7 +501,7 @@
 
         </div>
         <div class="col-md-7 col-5" data-aos="zoom-in-left" data-aos-duration="1000">
-          <p class="text-white mt-3" style="font-size: 1.8vw;">
+          <p class="text-white mt-3" style="font-size: 1.8vw; text-align: justify;">
             RMI is NIT Trichy's official Robotics and Technical Research Club,
             with a prime focus on Robotics-oriented research projects.
             We cover diverse fields, including Image Processing, Inverse Kinematics, and Artificial Intelligence.
